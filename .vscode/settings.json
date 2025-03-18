@@ -1,0 +1,11 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 15,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.windows": {
+        "Git Bash": {
+            "path": "C:\\Program Files\\Git\\bin\\bash.exe", // Caminho do Git Bash
+            "icon": "terminal-bash"
+        }
+    }
+}
