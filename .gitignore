@@ -1,0 +1,17 @@
+# Ignorar configurações do VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignorar arquivos de usuário do VS Code
+.vscode/globalStorage/
+.vscode/workspaceStorage/
+
+# Ignorar extensões do VS Code
+.vscode/extensions/
+
+# Ignorar arquivos temporários
+*.tmp
+*.log
