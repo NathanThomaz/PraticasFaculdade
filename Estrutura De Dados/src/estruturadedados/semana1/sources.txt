@@ -1,0 +1,10 @@
+src/estruturadedados/semana1/exercicios/TesteLista.java
+src/estruturadedados/semana1/exercicios/TesteListaString.java
+src/estruturadedados/semana1/exercicios/TestePilha.java
+src/estruturadedados/semana1/exercicios/TestePilhaEncadeadas.java
+src/estruturadedados/semana1/lista/ListaArray.java
+src/estruturadedados/semana1/lista/ListaArrayString.java
+src/estruturadedados/semana1/pilha/Nodo.java
+src/estruturadedados/semana1/pilha/Pilha.java
+src/estruturadedados/semana1/pilha/PilhaEncadeada.java
+src/estruturadedados/semana1/pilha/PilhaJavaUtil.java
