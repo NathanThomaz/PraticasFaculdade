@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Gerar lista de arquivos",
+      "type": "shell",
+      "command": "chcp 65001 && dir /s /b src\\*.java > sources.txt",
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/d", "/c"]
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Compilar Tudo",
+      "type": "shell",
+      "dependsOn": ["Gerar lista de arquivos"],
+      "command": "chcp 65001 && javac -d bin @sources.txt",
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/d", "/c"]
+        }
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
